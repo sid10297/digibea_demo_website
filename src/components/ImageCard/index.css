@@ -1,0 +1,130 @@
+.card {
+  background-color: #f4f4f4;
+  transition: all 0.5s ease-in-out;
+  border-radius: 1rem;
+  border: none;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.card-title {
+  text-align: center;
+  color: #2f2e41;
+  text-decoration: none;
+  /* padding: 10px; */
+  padding: 10px;
+  font-size: 16px;
+}
+
+.card:hover {
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; */
+  transition: all 0.2s ease-in-out;
+  /* transform: rotateX(180deg); */
+  transform: scale(1.05, 1.05);
+  /* transform: skew(180deg, 180deg); */
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* .imgStyle:hover::before {
+  content: attr(title-name);
+  position: absolute;
+  margin-bottom: 20px;
+  text-align: center;
+  z-index: 100;
+  color: #2f2e41;
+  border: 1px solid #2f2e41;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 12px;
+} */
+
+/* .imgStyle:hover {
+  transition: all 1s ease-in-out;
+  border-radius: 10px;
+} */
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+  }
+}
+
+.servicesText {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+/* @media (max-width: 480px) {
+  .servicesText {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+.card-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  grid-gap: 40px;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    /* grid-gap: 40px; */
+    width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    grid-gap: 15px;
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    grid-gap: 15px;
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+/* .card:nth-last-child(1) {
+  display: flex;
+} */

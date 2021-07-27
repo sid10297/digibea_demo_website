@@ -1,0 +1,21 @@
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.socialLink a {
+  color: #2f2e41;
+}
+
+.socialLinkIcon {
+  height: 30px;
+  width: 50px;
+}
+
+.socialLink a:hover {
+  color: #6c6c6c;
+}

@@ -1,0 +1,170 @@
+.carouselItemContainer {
+  padding: 10vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .carouselItemContainer {
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .carouselItemContainer {
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carouselItemContainer {
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+  }
+}
+/* 
+@media (min-width: 992px) and (max-width: 1280px) {
+  .carouselItemContainer {
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90vh;
+    position: relative;
+  }
+} */
+/* 
+@media (min-width: 1281px) {
+  .carouselItemContainer {
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 90vh;
+    position: relative;
+  }
+} */
+
+.carouselItemImg {
+  width: 40%;
+  height: 50vh;
+  object-fit: contain;
+}
+
+.carouselItemInfo {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.carouselItemInfo h2 {
+  color: #2f2e41;
+  font-weight: 600;
+}
+
+.carouselItemInfo p {
+  font-weight: 500;
+  color: #6c6c6c;
+}
+
+@media (max-width: 480px) {
+  .carouselItemContainer {
+    height: 100%;
+  }
+  .carouselItemInfo p {
+    font-weight: 500;
+    color: #6c6c6c;
+    text-align: left;
+  }
+  .carouselItemInfo h2 {
+    color: #2f2e41;
+    font-weight: 600;
+    text-align: left;
+  }
+  .carouselItemInfo {
+    text-align: center;
+    margin-left: 0;
+  }
+  .carouselItemImg {
+    width: 100%;
+    height: 40vh;
+    padding: 1rem;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .carouselItemContainer {
+    height: 100%;
+  }
+  .carouselItemInfo p {
+    font-weight: 500;
+    color: #6c6c6c;
+    text-align: left;
+  }
+  .carouselItemInfo h2 {
+    color: #2f2e41;
+    font-weight: 600;
+    text-align: left;
+  }
+  .carouselItemInfo {
+    text-align: center;
+    margin-left: 0;
+  }
+  .carouselItemImg {
+    width: 100%;
+    height: 40vh;
+    padding: 1rem;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carouselItemContainer {
+    height: 100%;
+  }
+  .carouselItemInfo p {
+    font-weight: 500;
+    color: #6c6c6c;
+    text-align: left;
+  }
+  .carouselItemInfo h2 {
+    color: #2f2e41;
+    font-weight: 600;
+    text-align: left;
+  }
+  .carouselItemInfo {
+    text-align: center;
+    margin-left: 0;
+  }
+  .carouselItemImg {
+    width: 100%;
+    height: 40vh;
+    padding: 1rem;
+    object-fit: contain;
+  }
+}
