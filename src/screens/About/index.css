@@ -67,6 +67,11 @@ h3 {
   width: 320px;
 }
 
+@media (max-width: 480px) {
+  .aboutImg img {
+    width: 260px;
+  }
+}
 .whyChooseUsContainer {
   height: auto;
   display: grid;
@@ -125,7 +130,7 @@ h3 {
 
   .bulbImage {
     height: 300px;
-    width: 300px;
+    width: 260px;
   }
 }
 
