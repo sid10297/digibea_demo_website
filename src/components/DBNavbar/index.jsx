@@ -77,9 +77,10 @@ const DBNavbar = () => {
         </Nav>
 
         <Link to="/getQuote">
+        <Nav.Link href="#getQuote">
           <Button id="contact-form-button" className="btn">
             Get Quote
-          </Button>
+          </Button></Nav.Link>
         </Link>
       </Navbar.Collapse>
     </Navbar>
