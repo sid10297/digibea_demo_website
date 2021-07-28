@@ -1,12 +1,12 @@
 import React from "react";
-import BackgroundVideo from "./BackgroundVideo";
+// import BackgroundVideo from "./BackgroundVideo";
 import Grid from "./Grid";
 import Slides from "./Slides";
 
 const Home = () => {
   return (
     <>
-      <BackgroundVideo />
+      {/* <BackgroundVideo /> */}
       <Slides />
 
       <Grid />

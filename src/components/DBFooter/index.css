@@ -1,9 +1,11 @@
+@import "../../App/index.css";
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
 .footerContainer {
-  background-color: #f4f4f4;
+  background-color: var(--material);
   padding-top: 20px;
 }
 
@@ -76,8 +78,8 @@ body {
 }
 
 .footer-copyright {
-  color: #fff;
-  background-color: #2f2e41;
+  color: var(--text);
+  background-color: var(--purple);
 }
 
 .footer-copyright p {
@@ -86,7 +88,7 @@ body {
 }
 
 .msg {
-  color: #2f2e41;
+  color: var(--text);
 }
 
 @media (max-width: 480px) {

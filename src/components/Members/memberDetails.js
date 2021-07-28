@@ -5,7 +5,7 @@ const membersDetail = [
         photo: siddharthBhaiji,
         name: `Siddharth Bhaiji`,
         designation: `Web Developer`,
-        link: `https://www.instagram.com/siddharth10297/`,
+        link: `https://www.linkedin.com/in/siddharth-bhaiji/`,
     }
 ]
 

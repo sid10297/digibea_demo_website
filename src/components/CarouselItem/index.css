@@ -1,10 +1,12 @@
+@import "../../App/index.css";
+
 .carouselItemContainer {
   padding: 10vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: var(--bg);
   position: relative;
 }
 
@@ -15,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--bg);
     position: relative;
   }
 }
@@ -27,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--bg);
     position: relative;
   }
 }
@@ -39,7 +41,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: var(--bg);
     position: relative;
   }
 }
@@ -82,13 +84,13 @@
 }
 
 .carouselItemInfo h2 {
-  color: #2f2e41;
+  color: var(--text);
   font-weight: 600;
 }
 
 .carouselItemInfo p {
   font-weight: 500;
-  color: #6c6c6c;
+  color: var(--text);
 }
 
 @media (max-width: 480px) {
@@ -97,11 +99,11 @@
   }
   .carouselItemInfo p {
     font-weight: 500;
-    color: #6c6c6c;
+    color: var(--text);
     text-align: left;
   }
   .carouselItemInfo h2 {
-    color: #2f2e41;
+    color: var(--text);
     font-weight: 600;
     text-align: left;
   }
@@ -123,11 +125,11 @@
   }
   .carouselItemInfo p {
     font-weight: 500;
-    color: #6c6c6c;
+    color: var(--text);
     text-align: left;
   }
   .carouselItemInfo h2 {
-    color: #2f2e41;
+    color: var(--text);
     font-weight: 600;
     text-align: left;
   }
@@ -149,11 +151,11 @@
   }
   .carouselItemInfo p {
     font-weight: 500;
-    color: #6c6c6c;
+    color: var(--text);
     text-align: left;
   }
   .carouselItemInfo h2 {
-    color: #2f2e41;
+    color: var(--text);
     font-weight: 600;
     text-align: left;
   }

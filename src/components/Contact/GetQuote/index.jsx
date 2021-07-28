@@ -7,7 +7,7 @@ const GetQuote = () => {
   return (
     <div className={"form-container"}>
       <div className="form">
-        <h3 className="text-center py-3" style={{ color: "#2f2e41" }}>
+        <h3 className="text-center py-3" style={{ color: "var(--text)" }}>
           Contact us
         </h3>
         <Form className={"formStyle"}>
@@ -26,7 +26,7 @@ const GetQuote = () => {
             />
           </Form.Group>
           <div className="text-center">
-            <Button>Send</Button>
+            <Button style={{ width: "100%" }}>Send</Button>
           </div>
         </Form>
       </div>

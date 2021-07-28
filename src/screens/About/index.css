@@ -1,7 +1,9 @@
+@import "../../App/index.css";
+
 .aboutPage > p,
 h1,
 h3 {
-  color: #2f2e41;
+  color: var(--text);
 }
 
 /* .aboutLandingPage {
@@ -38,7 +40,7 @@ h3 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 6rem;
-  background-color: #f4f4f4;
+  background-color: var(--material);
   height: 100vh;
   width: 100%;
 }
@@ -54,7 +56,7 @@ h3 {
   width: auto;
   margin: auto;
   text-align: justify;
-  color: #2f2e41;
+  color: var(--text);
 }
 
 .aboutImg {
@@ -78,7 +80,7 @@ h3 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--bg);
   padding: 2rem;
 }
 

@@ -1,1 +1,15 @@
+html {
+  --bg: #f4f4f4;
+  --material: #212121;
+  --text: #6c6c6c;
+  --brand: #dcbb43;
+  --purple: #2f2e41;
+}
 
+html[data-theme="dark"] {
+  --bg: #121212;
+  --material: #212121;
+  --text: #c9d1d9;
+  --brand: #dcbb43;
+  --purple: #2f2e41;
+}

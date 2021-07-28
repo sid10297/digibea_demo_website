@@ -1,3 +1,5 @@
+@import "../../App/index.css";
+
 @media (max-width: 480px) {
   .contactContainer {
     padding: 0;
@@ -13,6 +15,7 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+  color: var(--text);
 }
 
 @media (max-width: 480px) {
@@ -42,12 +45,16 @@
 }
 
 .label {
-  color: #6c6c6c;
+  color: var(--text);
   font-weight: 600;
 }
 
 .contactContainer a {
-  color: #2f2e41;
+  color: var(--brand);
   font-weight: 600;
   text-decoration: none;
+}
+
+h5 {
+  color: var(--text);
 }

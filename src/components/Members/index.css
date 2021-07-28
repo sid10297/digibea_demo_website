@@ -1,5 +1,5 @@
 .membersContainer {
-  background-color: #f4f4f4;
+  background-color: var(--material);
   margin: 1rem;
   border-radius: 2rem;
 }
@@ -31,5 +31,5 @@
 }
 
 .socialLink a:hover {
-  color: #6c6c6c;
+  color: var(--brand);
 }
