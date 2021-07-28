@@ -59,6 +59,7 @@ a:hover {
   padding: 2rem;
   background-color: var(--bg);
   overflow: hidden;
+  margin: 2rem;
 }
 
 @media (max-width: 480px) {

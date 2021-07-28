@@ -20,6 +20,7 @@ body {
   max-height: 30vh;
   aspect-ratio: 1;
   object-fit: contain;
+  padding: 2rem;
 }
 
 @media (max-width: 480px) {
@@ -89,6 +90,7 @@ body {
 
 .msg {
   color: var(--text);
+  max-width: 90%;
 }
 
 @media (max-width: 480px) {

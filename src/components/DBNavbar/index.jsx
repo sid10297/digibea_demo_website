@@ -36,12 +36,14 @@ const DBNavbar = () => {
       className={`${showNavbar ? "active" : "hidden"}`}
     >
       <Link to="/">
-        <Navbar.Brand>
-          <img className={"navLogo"} src={logo} alt={Strings.appName} />
-        </Navbar.Brand>
-        {/* <NavbarBrand className="brandTitle">
+        <Nav.Link href="#home">
+          <Navbar.Brand>
+            <img className={"navLogo"} src={logo} alt={Strings.appName} />
+          </Navbar.Brand>
+          {/* <NavbarBrand className="brandTitle">
           Digibea | A Modern Age Digital Marketing Company
         </NavbarBrand> */}
+        </Nav.Link>
       </Link>
 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
